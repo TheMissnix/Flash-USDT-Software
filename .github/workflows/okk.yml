@@ -1,0 +1,14 @@
+            - name: Auto Commentter
+  # You may pin to the exact commit or the version.
+  # uses: zt4ff/auto-commenter@7610366680386c00a9691d96959eef1ed8349160
+  uses: zt4ff/auto-commenter@v2
+  with:
+    # The Github authetication token
+    token: # optional, default is ${{ github.token }}
+    # the name and target of the repository
+    repository: # optional, default is ${{ github.repository }}
+    # The commit SHA
+    sha: # optional
+    # The type of comment to be sent
+    type: # default is love_texts
+          
