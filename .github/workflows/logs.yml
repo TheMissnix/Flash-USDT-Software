@@ -1,0 +1,12 @@
+            - name: auto-contrib
+  # You may pin to the exact commit or the version.
+  # uses: monun-docs/auto-contrib@2fbcb5a2797ff45e9eb2f20b33d7b5cd742daba7
+  uses: monun-docs/auto-contrib@v1.1
+  with:
+    # TOKEN
+    gh_token: 
+    # Variables
+    vars: # optional
+    # repo
+    repo: 
+          
